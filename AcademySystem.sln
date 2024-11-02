@@ -5,11 +5,11 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{3414B059-B2A5-481D-ADE1-F0D80D95F2D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademySystem.Web", "AcademySystem.Web\AcademySystem.Web.csproj", "{BC535F7A-9139-4F66-9BFF-E4482D5EFCFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcademySystem.Web", "AcademySystem.Web\AcademySystem.Web.csproj", "{BC535F7A-9139-4F66-9BFF-E4482D5EFCFC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{CE826FA5-8B30-4EC3-A2D0-820B8319CADA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy.Services.CoursesAPI", "Academy.Services.CoursesAPI\Academy.Services.CoursesAPI.csproj", "{1656E14D-23D5-4482-AC7A-721A1D35F5E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academy.Services.CourseAPI", "Academy.Services.CoursesAPI\Academy.Services.CourseAPI.csproj", "{1656E14D-23D5-4482-AC7A-721A1D35F5E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
