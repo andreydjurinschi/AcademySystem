@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Swashbuckle.AspNetCore.Annotations;
+using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace Academy.Services.CourseAPI.Models
 {
@@ -13,3 +15,5 @@ namespace Academy.Services.CourseAPI.Models
         public string ImagePath { get; set; }
     }
 }
+
+//DBCC CHECKIDENT ('Courses', RESEED, 0);

@@ -7,7 +7,6 @@ namespace Academy.Services.CourseAPI.Repository
         Task<List<CourseDto>> GetCourses();
         Task<CourseDto> CreareUpdateCourse(CourseDto course);
         Task<List<CourseDto>> GetCourseByTitle(string title);
-        Task<List<CourseDto>> GetCourseByLevel(string level);
         Task<CourseDto> GetCourseById(int Id);
         Task<bool> DeleteCourseById(int id);
         

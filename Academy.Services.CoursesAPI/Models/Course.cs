@@ -11,11 +11,7 @@ namespace Academy.Services.CourseAPI.Models
 
         [StringLength(500, ErrorMessage = "Описание курса не должно превышать 500 символов")]
         public string CourseDescription { get; set; }
-
-        [Required]
         public DateTime StartDate { get; set; }
-
-        [Required]
         public DateTime EndDate { get; set; }
 
         [Required]

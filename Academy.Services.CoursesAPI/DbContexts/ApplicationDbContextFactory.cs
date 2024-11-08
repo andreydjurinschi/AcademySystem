@@ -1,4 +1,4 @@
-﻿using Academy.Services.CourseAPI.DbContexts;
+﻿/*using Academy.Services.CourseAPI.DbContexts;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,4 +11,4 @@ public class ApplicationDbContextFactory : IDesignTimeDbContextFactory<Applicati
 
         return new ApplicationDbContext(optionsBuilder.Options);
     }
-}
+}*/
